@@ -4,8 +4,5 @@
     "website": "https://devcenter.heroku.com/articles/herokuconnect",
     "repository": "https://github.com/heroku/heroku-connect-skeleton",
     "success_url": "https://connect.heroku.com/",
-    "addons": [
-        "heroku-postgresql",
-        "herokuconnect"
-    ]
+    "addons": ["heroku-postgresql", "herokuconnect:demo"]
 }
