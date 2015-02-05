@@ -1,0 +1,11 @@
+{
+    "name": "Heroku Connect Skeleton",
+    "description": "A basic app showcasing the components necessary to use Heroku Connect",
+    "website": "https://devcenter.heroku.com/articles/herokuconnect",
+    "repository": "https://github.com/heroku/heroku-connect-skeleton",
+    "success_url": "https://connect.heroku.com/",
+    "addons": [
+        "heroku-postgresql",
+        "herokuconnect"
+    ]
+}
