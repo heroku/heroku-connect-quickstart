@@ -4,5 +4,6 @@
     "website": "https://devcenter.heroku.com/articles/herokuconnect",
     "repository": "https://github.com/heroku/heroku-connect-skeleton",
     "success_url": "https://connect.heroku.com/",
+    "env": {"BUILDPACK_URL": "http://github.com/ryandotsmith/null-buildpack"},
     "addons": ["heroku-postgresql", "herokuconnect:demo"]
 }
