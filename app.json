@@ -3,7 +3,6 @@
     "description": "A basic app showing the components necessary for Heroku Connect. Just click 'View it' at the bottom once you've deployed to continue setup.",
     "website": "https://devcenter.heroku.com/articles/herokuconnect",
     "repository": "https://github.com/heroku/heroku-connect-skeleton",
-    "success_url": "https://connect.heroku.com/dashboard-next/create-connection",
-    "env": {"BUILDPACK_URL": "http://github.com/ryandotsmith/null-buildpack"},
+    "success_url": "/create",
     "addons": ["heroku-postgresql", "herokuconnect:demo"]
 }
