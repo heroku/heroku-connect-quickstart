@@ -12,7 +12,7 @@ CREATE_URL = 'https://connect.heroku.com/dashboard-next/create-connection'
 def create_redirect():
     match = host_re.match(flask.request.host)
     if match:
-        flask.redirect(CREATE_URL + '?create=%s' % match.group(1))
+        return flask.redirect(CREATE_URL + '?create=%s' % match.group(1))
     return flask.redirect(CREATE_URL)
 
 
