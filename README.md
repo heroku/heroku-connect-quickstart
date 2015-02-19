@@ -1,5 +1,3 @@
-# Heroku Connect skeleton application
-
 This Heroku button is the simplest way to get a demo version of Heroku Connect.  Heroku Connect makes it easy for you to build Heroku apps that share data with your Salesforce deployment. Using bi-directional synchronization between Salesforce and Heroku Postgres, Heroku Connect unifies the data in your Postgres database with the contacts, accounts and other custom objects in the Salesforce database. Easily configured with a point and click UI, it’s simple to get the service up and running in minutes – no coding or complex configuration is required.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/heroku/heroku-connect-skeleton)
