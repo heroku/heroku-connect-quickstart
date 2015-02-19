@@ -1,8 +1,8 @@
 {
-    "name": "Heroku Connect Skeleton",
+    "name": "Heroku Connect Quickstart",
     "description": "A basic app showing the components necessary for Heroku Connect. Just click 'View it' at the bottom once you've deployed to continue setup.",
     "website": "https://devcenter.heroku.com/articles/herokuconnect",
-    "repository": "https://github.com/heroku/heroku-connect-skeleton",
+    "repository": "https://github.com/heroku/heroku-connect-quickstart",
     "success_url": "/create",
     "addons": ["heroku-postgresql", "herokuconnect:demo"]
 }
