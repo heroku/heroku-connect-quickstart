@@ -15,6 +15,9 @@ def create_redirect():
         return flask.redirect(CREATE_URL + '?create=%s' % match.group(1))
     return flask.redirect(CREATE_URL)
 
+@app.route('/')
+def home():
+    return "Welcome - check out your app in the Heroku Dashboard and on Heroku Connect to see the data sync"
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
